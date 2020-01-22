@@ -4,4 +4,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Chalandri.Glenrothes\source\R5T.Chalandri.Glenrothes\R5T.Chalandri.Glenrothes.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Glenrothes.DropboxRivetData\source\R5T.Glenrothes.DropboxRivetData\R5T.Glenrothes.DropboxRivetData.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Ilioupoli.Standard\source\R5T.Ilioupoli.Standard\R5T.Ilioupoli.Standard.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Lombardy.Standard\source\R5T.Lombardy.Standard\R5T.Lombardy.Standard.csproj" />
+  </ItemGroup>
 </Project>
