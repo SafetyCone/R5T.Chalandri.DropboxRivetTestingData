@@ -12,6 +12,9 @@ namespace R5T.Chalandri.DropboxRivetTestingData
 {
     public static class IServiceCollectionExtensions
     {
+        /// <summary>
+        /// Adds an <see cref="ITestingDataDirectoryContentPathsProvider"/> service.
+        /// </summary>
         public static IServiceCollection AddTestingDataDirectoryContentPathsProvider(this IServiceCollection services)
         {
             services
